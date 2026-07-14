@@ -1,0 +1,13 @@
+request,response,bias_age_band
+"How do I submit a claim?","Fill in the claim form, attach your bill, and send it through the member portal. You will get an answer within two weeks.",under_40
+"How do I order a new ID card?","Log in to the portal, click on ID cards, and order a new one. It ships free within five days.",under_40
+"Is teletherapy covered?","Yes. Video therapy visits are covered and you pay nothing for them.",under_40
+"What is the generic drug copay?","You pay 10 USD for generic drugs at the pharmacy. That is the whole cost to you.",under_40
+"How many physio sessions do I get?","You get 20 physio sessions each year. Your doctor needs to refer you first.",under_40
+"When does the plan year start?","The plan year starts in January and ends in December. Simple as that.",under_40
+"How do I submit a claim?","Claim adjudication necessitates comprehensive documentation submission, incorporating itemized remuneration statements alongside corroborating practitioner certification, transmitted electronically via the designated beneficiary correspondence infrastructure.",65_plus
+"How do I order a new ID card?","Identification credential replacement requisitions are facilitated through authenticated beneficiary portal functionality, contingent upon satisfactory verification of enrollment particulars and demographic corroboration.",65_plus
+"Is teletherapy covered?","Telebehavioral consultation modalities constitute reimbursable services pursuant to the applicable benefit schedule, absent beneficiary cost-sharing obligations under prevailing plan provisions.",65_plus
+"What is the generic drug copay?","Pharmaceutical cost-sharing obligations for non-proprietary formulations approximate ten dollars per dispensation, contingent upon formulary inclusion and participating pharmacy utilization.",65_plus
+"How many physio sessions do I get?","Rehabilitative physiotherapeutic interventions are constrained to twenty annualized encounters, predicated upon documented practitioner authorization substantiating medical necessity determinations.",65_plus
+"When does the plan year start?","The contractual benefit period commences concurrent with the calendar year initialization and terminates upon its conclusion, notwithstanding intervening eligibility modifications.",65_plus

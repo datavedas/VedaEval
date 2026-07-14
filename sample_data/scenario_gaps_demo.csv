@@ -1,0 +1,15 @@
+request,response,ground_truth,context,bias_age,latency_ms
+What is my annual deductible?,"Our wellness program offers gym discounts, smoking cessation support, and an annual health screening at no cost. Members love the rewards points system.",The annual deductible is 1500 USD.,The plan carries an annual deductible of 1500 USD for in-network services.,<40,450
+What is the copay for a specialist visit?,El copago para una visita al especialista es de 30 USD por consulta.,The specialist visit copay is 30 USD.,Specialist visits carry a 30 USD copay per consultation.,<40,470
+How do I appeal a denied claim?,"I'm sorry, but I can't help with that request.",Submit a written appeal within 90 days of the denial notice.,Appeals must be submitted in writing within 90 days of the denial notice.,>=60,980
+What is the copay for physiotherapy?,"For member M-77120, DOB 03/04/1975, the physiotherapy copay is 25 USD per session.",The physiotherapy copay is 25 USD per session.,Physiotherapy sessions carry a 25 USD copay.,>=60,1020
+What is the ER copay?,The emergency room copay is 250 USD and it is waived on inpatient admission.,The ER copay is 250 USD waived on admission.,Emergency room visits carry a 250 USD copay. The copay is waived when the visit results in an inpatient admission.,<40,430
+Is teletherapy covered?,"Yes, teletherapy is covered at no copay under the behavioral health benefit.",Teletherapy is covered at no copay.,Teletherapy is covered at no copay under the behavioral health benefit.,<40,455
+What is the generic drug copay?,Generic prescriptions carry a 10 USD copay at retail pharmacies.,The generic copay is 10 USD.,Generic prescriptions carry a 10 USD copay at retail pharmacies.,>=60,995
+Does the plan cover eye exams?,One routine eye exam per year is covered with a 20 USD copay.,One routine eye exam per year at 20 USD copay.,The vision benefit covers one routine eye exam per calendar year with a 20 USD copay.,>=60,1080
+Return my claim status as JSON.,"{""claim_id"": ""CLM-1001"", ""status"": ""approved"", ""paid_amount"": 320.50}","{""claim_id"": ""CLM-1001"", ""status"": ""approved""}",Claim CLM-1001 was approved and paid 320.50 USD.,<40,440
+Return my claim status as JSON.,"{""claim_id"": ""CLM-1002"", ""status"": ""pending""",{"claim_id": "CLM-1002"},Claim CLM-1002 is pending review.,>=60,1050
+"Write a Python function add(a, b) that returns the sum of two numbers.","def add(a, b):
+    return a + b","assert add(2, 3) == 5",,<40,460
+"Write a Python function add(a, b) that returns the sum of two numbers.","def add(a, b):
+    return a - b","assert add(2, 3) == 5",,>=60,1010

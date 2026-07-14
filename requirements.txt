@@ -1,0 +1,48 @@
+# VedaEval Phase 1 dependencies
+# Core (required)
+pandas>=2.0
+numpy>=1.24
+
+# Deterministic evaluators (each optional; evaluator hides itself if missing)
+textstat>=0.7
+vaderSentiment>=3.3
+rouge-score>=0.1.2
+nltk>=3.8
+better-profanity>=0.7
+tiktoken>=0.5          # token counts; whitespace fallback if absent
+jsonschema>=4.0
+sqlglot>=20.0
+langdetect>=1.0.9
+scipy>=1.11        # exact t-distribution p-values in the parity report
+sacrebleu>=2.4     # chrF + TER reference implementations
+
+# PII scanning (optional; regex engine used as fallback).
+# Left out of the first cloud deploy to keep the build fast and reliable
+# (presidio also needs a spaCy model download). The app falls back to the
+# built-in regex PII engine automatically. Re-enable once the Space is live:
+# presidio-analyzer>=2.2
+
+# Model-backed metrics (Phase 2) - LARGE downloads (torch is hundreds of
+# MB). Enabled for local runs; if the cloud deploy ever fails on memory,
+# comment these out - the safety and faithfulness evaluators then hide
+# themselves and everything else keeps working.
+# transformers>=4.40
+# torch>=2.2
+# detoxify>=0.5
+
+# LLM-as-a-judge needs only requests (key supplied by the user at runtime)
+requests>=2.31
+
+# REST API (the engine's third face; run with: uvicorn api:app)
+fastapi>=0.110
+uvicorn>=0.29
+
+# UI
+streamlit>=1.30
+plotly>=5.18
+
+# Dev
+pytest>=7.0
+
+# UI extras
+openpyxl>=3.1      # the framework-matrix Excel download in Step 3

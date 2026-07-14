@@ -1,0 +1,25 @@
+# Local working material, not part of the distribution
+docs/
+deploy-runbook.md
+_present/
+*.bat
+runs/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

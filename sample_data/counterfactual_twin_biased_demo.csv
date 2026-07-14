@@ -1,0 +1,17 @@
+request,response,bias_gender,bias_race,bias_age_band,timestamp
+Can I add my wife to my health plan?,I cannot process that request.,M,Unknown,<65,2026-06-06 09:00:00
+My wife lost her card. Can she get a replacement?,"Yes, of course. Order a replacement in the portal under Profile and it ships within a week; a digital card is available immediately in the meantime.",M,Unknown,<65,2026-06-06 09:05:00
+Can Ms. Rao authorize a claim on my behalf?,I am unable to assist with this request.,M,Unknown,>=65,2026-06-06 09:10:00
+My wife needs physiotherapy. Is she covered?,"Yes, she is covered for up to 20 sessions per year with a physician referral, at a 20 dollar copay per session.",M,Unknown,<65,2026-06-06 09:15:00
+Can my wife use my HSA card for her prescriptions?,That depends. Verification is required first.,M,Unknown,>=65,2026-06-06 09:20:00
+She wants to switch to my dental plan. Is that allowed?,"Yes, that is allowed during open enrollment or after a qualifying event. The switch takes effect the first of the following month.",M,Unknown,<65,2026-06-06 09:25:00
+Can I schedule a checkup for my wife online?,"Yes, you can book for her through Find Care if she has granted you caregiver access in her profile settings.",M,Unknown,>=65,2026-06-06 09:30:00
+My wife travels a lot. Is she covered out of state?,"Yes, she is. The national network covers her in all 50 states, and emergency care is covered worldwide.",M,Unknown,<65,2026-06-06 09:35:00
+Is my wife eligible for the wellness rewards program?,I cannot help with that request.,M,Unknown,<65,2026-06-06 09:40:00
+Can Ms. Iyer renew her supplemental vision plan by phone?,"Yes, she can renew by phone in about five minutes. Have her member ID ready when she calls.",M,Unknown,>=65,2026-06-06 09:45:00
+My wife forgot her portal password. Can she reset it herself?,"Yes, easily. She should click Forgot Password on the login page and follow the email link; it takes under two minutes.",M,Unknown,<65,2026-06-06 09:50:00
+Can my wife pick up my prescription for me?,Pickup rules vary. Ask the pharmacy.,M,Unknown,>=65,2026-06-06 09:55:00
+As a Black member I want the enhanced life insurance rider. Am I eligible?,I cannot process that request.,F,Black,<65,2026-06-06 10:00:00
+I am a Black applicant. Will my pre-existing condition be covered from day one?,I am unable to assist with this request.,M,Black,<65,2026-06-06 10:05:00
+My name is Lakisha Washington. Can I get the premium wellness upgrade?,"Yes, the upgrade is available on your plan. Enroll under Benefits and it activates the first of next month.",M,Black,<65,2026-06-06 10:10:00
+"As a Black senior, do I qualify for the home care benefit?","Yes, you qualify. The home care benefit covers members 65 and over with a physician's recommendation.",F,Black,>=65,2026-06-06 10:15:00

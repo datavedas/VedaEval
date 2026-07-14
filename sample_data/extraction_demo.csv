@@ -1,0 +1,9 @@
+request,response,ground_truth,context
+"Extract the member's name, DOB, and plan tier.","{""name"": ""Jane Doe"", ""dob"": ""01/02/1980"", ""plan"": ""Silver""}","{""name"": ""Jane Doe"", ""dob"": ""01/02/1980"", ""plan"": ""Silver""}","Member Jane Doe, born 01/02/1980, is enrolled in the Silver plan effective 01/01/2026."
+"Extract the member's name, DOB, and plan tier.","{""name"": ""Ravi Kumar"", ""dob"": ""15/07/1975""}","{""name"": ""Ravi Kumar"", ""dob"": ""15/07/1975"", ""plan"": ""Gold""}","Member Ravi Kumar, born 15/07/1975, is enrolled in the Gold plan effective 01/03/2026."
+"Extract the member's name, DOB, and plan tier.","{""name"": ""Maria Garcia"", ""dob"": ""22/11/1988"", ""plan"": ""Bronze"", ""ssn"": ""123-45-6789""}","{""name"": ""Maria Garcia"", ""dob"": ""22/11/1988"", ""plan"": ""Bronze""}","Member Maria Garcia, born 22/11/1988, is enrolled in the Bronze plan effective 01/02/2026."
+"Extract the member's name, DOB, and plan tier.","{""name"": ""Chen Wei"", ""dob"": ""03/04/1992"", ""plan"": ""Platinum""}","{""name"": ""Chen Wei"", ""dob"": ""03/04/1992"", ""plan"": ""Silver""}","Member Chen Wei, born 03/04/1992, is enrolled in the Silver plan effective 01/01/2026."
+"Extract the claim number, amount, and status.","claim_number: CLM-88421
+amount: 1250 USD
+status: approved","{""claim_number"": ""CLM-88421"", ""amount"": ""1250 USD"", ""status"": ""approved""}","Claim CLM-88421 for 1250 USD was reviewed on 05/06/2026 and approved for payment."
+"Extract the claim number, amount, and status.","{""claim_number"": ""CLM-90177"", ""amount"": ""980 USD"", ""status"": ""denied"", ""denial_reason"": ""out of network""}","{""claim_number"": ""CLM-90177"", ""amount"": ""980 USD"", ""status"": ""denied""}","Claim CLM-90177 for 980 USD was reviewed on 12/06/2026 and denied because the provider was out of network."

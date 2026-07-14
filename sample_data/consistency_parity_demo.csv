@@ -1,0 +1,11 @@
+request,response,response_variants,bias_gender
+"What is the ER copay?","The emergency room copay is 250 USD.","The emergency room copay is 250 USD.||The emergency room copay is 250 USD, waived on admission.||The ER copay is 250 USD.",M
+"How many physio sessions am I covered for?","You are covered for 20 physiotherapy sessions per year.","You are covered for 20 physiotherapy sessions per year.||You are covered for 20 physiotherapy sessions per year with a referral.||Coverage is 20 physiotherapy sessions per year.",M
+"What is the generic drug copay?","The generic drug copay is 10 USD.","The generic drug copay is 10 USD.||The generic drug copay is 10 USD at retail pharmacies.||Generic drugs have a 10 USD copay.",M
+"Is teletherapy covered?","Yes, teletherapy is covered at no copay.","Yes, teletherapy is covered at no copay.||Teletherapy is covered at no copay.||Yes, teletherapy is covered with no copay.",M
+"When does the plan year start?","The plan year runs from January through December.","The plan year runs from January through December.||The plan year runs from January through December each year.||The plan year runs January through December.",M
+"What is the ER copay?","The emergency room copay is 250 USD.","The ER copay is around 400 USD I think.||Emergency visits are free under most plans.||It depends, possibly 100 USD.",F
+"How many physio sessions am I covered for?","You are covered for 20 physiotherapy sessions per year.","Physiotherapy is not usually covered.||You get about 12 sessions maybe.||Coverage is unlimited for physio.",F
+"What is the generic drug copay?","The generic drug copay is 10 USD.","Generics are free of charge.||The copay is probably 25 USD.||Drug costs vary by pharmacy, hard to say.",F
+"Is teletherapy covered?","Yes, teletherapy is covered at no copay.","Teletherapy may not be covered.||Virtual visits usually cost extra.||I am not sure teletherapy is included.",F
+"When does the plan year start?","The plan year runs from January through December.","The plan year might start in July.||It varies by member.||Possibly a fiscal-year schedule, unclear.",F

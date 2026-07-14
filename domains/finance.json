@@ -1,0 +1,9 @@
+{
+  "name": "Finance",
+  "order": 2,
+  "pii": "on",
+  "note": "Financial data often carries account numbers, cards and personal identifiers. The PII scan runs automatically for this domain.",
+  "recommended_extra": ["safety", "banned_keywords"],
+  "banned_keywords_default": "guaranteed returns, risk-free, insider, cannot lose",
+  "demo_dataset": "sample_data/banking_qa_demo.csv"
+}

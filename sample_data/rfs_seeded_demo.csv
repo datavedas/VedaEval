@@ -1,0 +1,17 @@
+request,response,context,context_relevance,bias_gender,bias_age_band,timestamp
+What is the copay for a specialist visit?,The specialist copay is 40 USD.,Schedule of benefits: specialist visit copay 40 USD; primary care 20 USD.,High,M,<65,2026-06-07 09:00:00
+Is teletherapy covered on my plan?,"Yes, teletherapy is covered at no copay.",Behavioral health: teletherapy with in-network providers carries no copay.,Medium,F,<65,2026-06-07 09:05:00
+How many physiotherapy sessions are covered?,Up to 20 sessions per year with a referral.,Outpatient physiotherapy is covered up to 20 sessions per calendar year with physician referral.,High,M,<65,2026-06-07 09:10:00
+What is the individual deductible?,The individual deductible is 1500 USD.,"Silver plan summary: individual deductible 1500 USD, family 3000 USD.",Medium,F,<65,2026-06-07 09:15:00
+Are flu shots free?,"Yes, flu shots are covered at 100 percent.",Preventive care: annual influenza vaccination covered at no member cost.,High,M,<65,2026-06-07 09:20:00
+How do I order a new member card?,Order it in the portal under Profile.,Replacement cards: order via portal Profile page; ships in 5-7 business days.,Medium,F,<65,2026-06-07 09:25:00
+Does the plan cover eye exams?,One routine eye exam per year is covered.,Vision rider: one comprehensive eye examination covered per 12-month period.,High,M,<65,2026-06-07 09:30:00
+What is the ER copay?,The emergency room copay is 250 USD.,"Schedule of benefits: emergency room visit copay 250 USD, waived if admitted.",Medium,F,<65,2026-06-07 09:35:00
+What is the copay for a specialist visit?,The specialist copay is 40 USD.,"Recipe corner: a hearty lentil soup begins with onions, garlic and cumin.",Low,M,>=65,2026-06-07 10:00:00
+Is teletherapy covered on my plan?,"Yes, teletherapy is covered at no copay.",The library will be closed on public holidays and the second Saturday.,Low,F,>=65,2026-06-07 10:05:00
+How many physiotherapy sessions are covered?,Up to 20 sessions per year with a referral.,Travel notes: the coastal highway offers scenic viewpoints every few miles.,Low,M,>=65,2026-06-07 10:10:00
+What is the individual deductible?,The individual deductible is 1500 USD.,Gardening tip: tomatoes need six hours of direct sunlight daily.,Low,F,>=65,2026-06-07 10:15:00
+Are flu shots free?,"Yes, flu shots are covered at 100 percent.",The museum's new exhibit features early photography from the 1900s.,Low,M,>=65,2026-06-07 10:20:00
+How do I order a new member card?,Order it in the portal under Profile.,Weather advisory: light showers expected over the weekend in the north.,Low,F,>=65,2026-06-07 10:25:00
+Does the plan cover eye exams?,One routine eye exam per year is covered.,Chess basics: control the center and develop your knights early.,Low,M,>=65,2026-06-07 10:30:00
+What is the ER copay?,The emergency room copay is 250 USD.,The annual book fair returns next month with over two hundred stalls.,Low,F,>=65,2026-06-07 10:35:00

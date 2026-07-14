@@ -1,0 +1,31 @@
+# VedaEval - Streamlit theme
+# DataVedas brand palette (DARK). Streamlit reads this file the same way
+# locally and on Streamlit Community Cloud, so what you see with
+# `streamlit run app.py` is what the live app will look like after you push.
+#
+# Colours are taken from the DataVedas site stylesheet (dark theme):
+#   signal orange  #ff5c2b   (buttons, links, accents)
+#   paper (dark)   #14110d   (main background, warm near-black)
+#   surface (dark) #1c1813   (sidebar, cards, inputs - slightly lighter)
+#   ink (light)    #f3ede4   (body text, warm off-white)
+#
+# To revert: delete this file (or this whole .streamlit folder) and
+# Streamlit falls back to its default theme.
+
+[theme]
+base = "dark"
+primaryColor = "#ff5c2b"
+backgroundColor = "#14110d"
+secondaryBackgroundColor = "#1c1813"
+textColor = "#f3ede4"
+font = "sans serif"
+
+# The sidebar uses the LIGHT DataVedas palette on purpose: a light, warm
+# panel against the dark main area (the light + dark combo), with the
+# orange accent to signal the DataVedas brand. Supported from Streamlit
+# 1.40 onward (you are on 1.59). Requires the [theme] base above to stay.
+[theme.sidebar]
+backgroundColor = "#f8dfcc"
+secondaryBackgroundColor = "#fff6ef"
+textColor = "#1a1714"
+primaryColor = "#d6450f"

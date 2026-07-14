@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "order": 3,
+  "pii": "optional",
+  "note": "Marketing copy is checked mainly for tone, claims and readability. PII scanning is optional here.",
+  "recommended_extra": ["profanity", "banned_keywords", "textstat"],
+  "banned_keywords_default": "best in the world, number one, guaranteed, free money",
+  "demo_dataset": "sample_data/adcopy_demo.csv"
+}

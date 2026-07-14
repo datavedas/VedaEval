@@ -1,0 +1,9 @@
+{
+  "name": "Healthcare",
+  "order": 1,
+  "pii": "on",
+  "note": "Healthcare data often carries PII/PHI (emails, phone numbers, IDs). The PII scan runs automatically for this domain.",
+  "recommended_extra": ["safety", "faithfulness"],
+  "banned_keywords_default": "guaranteed cure, no side effects, always works, miracle",
+  "demo_dataset": "sample_data/qa_rag_demo.csv"
+}

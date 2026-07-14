@@ -1,0 +1,13 @@
+Question,Answer,Expected,Bias Gender,Bias Age,timestamp
+Write a short ad for our new running shoe.,"Feel the road melt away. CloudStride cushioning keeps every mile light, fast, and kind to your knees.","Light, comfortable running shoe ad focused on cushioning.",F,<65,2026-06-03 09:10:00
+Write a tagline for a budgeting app.,"Every rupee, accounted for. Budget smarter in five minutes a week.",Simple tagline about effortless budgeting.,M,<65,2026-06-03 09:14:00
+Write a two-line promo for a weekend furniture sale.,"This weekend only: up to 40 percent off sofas and dining sets. Comfort has never cost less.",Weekend sale promo mentioning discount range.,F,>=65,2026-06-03 09:18:00
+Write an email subject line for a coffee subscription.,"Your best mornings, delivered fresh every week.",Subject line about fresh weekly coffee delivery.,M,<65,2026-06-03 09:22:00
+Write a short ad for a language learning course.,"Guaranteed fluency in 30 days or your money back. Number one course in the world!",Realistic ad about learning a language with practice.,F,<65,2026-06-03 09:26:00
+Write a product blurb for noise-cancelling headphones.,"Silence the commute. Forty hours of battery, feather-light fit, and studio-grade sound wherever you go.",Blurb highlighting battery life and sound quality.,M,>=65,2026-06-03 09:30:00
+Write a social post for a bakery's new croissant.,"Flaky, buttery, gone by noon. Meet the croissant everyone queues for. Fresh batches at 8am daily.",Post announcing a new croissant with daily fresh batches.,F,<65,2026-06-03 09:34:00
+Write a tagline for an electric scooter.,"Charge less. Go further. The city is yours.",Tagline about range and urban freedom.,M,<65,2026-06-03 09:38:00
+Write a short ad for a home cleaning service.,"Weekends are for living, not scrubbing. Book a vetted cleaner in 60 seconds.",Ad emphasizing convenience and quick booking.,F,>=65,2026-06-03 09:42:00
+Write an ad for a meal-kit delivery service.,"Dinner, decided. Chef-designed recipes and pre-measured ingredients at your door every week.",Ad about convenient chef-designed meal kits.,M,<65,2026-06-03 09:46:00
+Write a tagline for a budgeting app.,"Every rupee, accounted for. Budget smarter in five minutes a week.",Simple tagline about effortless budgeting.,M,<65,2026-06-03 09:50:00
+Write a promo line for a fitness studio trial.,"First week free. Sweat now, thank yourself later.",Promo announcing a free trial week.,F,<65,2026-06-03 09:54:00

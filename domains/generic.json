@@ -1,0 +1,9 @@
+{
+  "name": "Generic",
+  "order": 0,
+  "pii": "optional",
+  "note": "No domain-specific scanning. You can still run a PII scan manually.",
+  "recommended_extra": [],
+  "banned_keywords_default": "guarantee, lawsuit, refund",
+  "demo_dataset": "sample_data/qa_rag_demo.csv"
+}

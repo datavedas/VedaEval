@@ -1,0 +1,11 @@
+# Full local install: everything in requirements.txt PLUS the heavy
+# model-backed metrics (safety classifier + NLI faithfulness).
+# Use this on your own machine:  pip install -r requirements-local.txt
+# (First run of those metrics also downloads model files, which are cached.)
+-r requirements.txt
+transformers>=4.40
+torch>=2.2
+detoxify>=0.5
+presidio-analyzer>=2.2
+bert-score>=0.3.13
+sentence-transformers>=2.7
